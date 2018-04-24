@@ -3,7 +3,7 @@
 require_once 'CRM/Core/Payment.php';
 require_once ('sdk-php/lib/mercadopago.php');
 
-class br_com_dotpro_mercadopago extends CRM_Core_Payment {
+class CRM_Core_Payment_MercadoPago extends CRM_Core_Payment {
   /**
    * We only need one instance of this object. So we use the singleton
    * pattern and cache the instance in this variable
